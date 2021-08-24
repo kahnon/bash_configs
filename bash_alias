@@ -1,0 +1,5 @@
+alias ls='ls -lh --color=auto'
+alias vi='vim -p'
+alias makev='VERBOSE=1 make'
+alias make='make -j'
+alias rmrun='_rmrun() { rm -rf *"$1"* ;}; _rmrun'
